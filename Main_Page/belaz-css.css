@@ -1,0 +1,56 @@
+
+#headline{
+    height: 120px;
+    text-align: center;
+    color: rgba(184, 184, 216, 0.69);
+    font-size: 20px;
+    padding-top: 7px;
+    font-family: Tahoma, sans-serif;
+}
+
+.container-fluid{
+    width: 70%;
+}
+/*Стили для панели навигации*/
+.navbar-default{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+/*Стили для пунктов меню*/
+.navbar-default .navbar-nav  li  a{
+    font-size: 18px;    
+    color: rgba(184, 184, 216, 0.69);
+}
+
+/*Стили для пунктов меню при наведении на них*/
+.navbar-default .navbar-nav  li  a:hover,
+.navbar-default .navbar-nav  li  a:focus{
+    color: black;
+    background-color: rgba(184, 184, 216, 0.69);
+}
+
+/*стили для блока выпадающего меню*/
+.navbar-default .navbar-nav ul.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    margin-top: 8px;
+    background: linear-gradient(rgba(3, 20, 75, 0.71), #1665e3) rgba(22, 77, 227, 0.71);
+    border-color: rgba(3, 20, 75, 0.71);
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.btn:hover{
+    background-color: azure;
+    border-color:azure;
+    color: black;
+}
+
+.main{
+    height: 200px;
+}
+
+.footer{
+    height: 200px;
+}
